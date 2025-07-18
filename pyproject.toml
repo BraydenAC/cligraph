@@ -4,14 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cligraph"
-version = "0.1.0"
+version = "0.1.1"
 description = "A package inspired by tqdm, that adds an updateable graph to the cli for tracking a value within a loop."
 readme = "README.md"
 license = { file = "LICENSE" }
 authors = [{ name = "Brayden Cloutier"}]
 requires-python = ">=3.8"
 dependencies = [
-    "sys",
-    "time",
     "logging"
 ]
